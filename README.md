@@ -9,8 +9,8 @@ docker run -p 21:21 \
            -p 3306:3306 \
            -p 8888:8888 \
            -p 39000-40000:39000-40000 \
-           -d --name bt \
-           mingfunwong/bt
+           -d --name baota \
+           tangniyuqi/baota:1.0
 ```
 
 ## 管理后台
@@ -30,6 +30,6 @@ docker run -p 21:21 \
            -p 3306:3306 \
            -p 8888:8888 \
            -p 39000-39050:39000-39050 \
-           -d --name bt \
-           mingfunwong/bt:lamp5.6
+           -d --name baota \
+           tangniyuqi/baota:lamp5.6
 ```
